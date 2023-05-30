@@ -69,3 +69,30 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+:root {
+  /* Colors */
+  --clr--primary-red: hsl(0, 78%, 62%);
+  --clr--primary-cyan: hsl(180, 62%, 55%);
+  --clr--primary-orange: hsl(34, 97%, 64%);
+  --clr--primary-blue: hsl(212, 86%, 64%);
+
+  --clr--heading-accent: hsl(234, 12%, 34%);
+  --clr-main-text: hsl(229, 6%, 66%);
+  --clr--bg-body: hsl(0, 0%, 98%);
+  /* ---------------------------------------- */
+
+  /* Font Sizes */
+  --fs--main: 0.9375rem;
+
+  /* ------------------------ */
+
+  /* Font Families */
+  --ff-main: "Poppins", sans-serif;
+  /* ---------------- */
+
+  /* Font Weights */
+  --fw-light: 200;
+  --fw-regular: 400;
+  --fw-semibold: 600;
+}
