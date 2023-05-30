@@ -96,3 +96,42 @@ h6 {
   --fw-regular: 400;
   --fw-semibold: 600;
 }
+
+body {
+  color: var(--clr-main-text);
+  font-family: var(--ff-main);
+  font-size: var(--fs--main);
+  font-weight: var(--fw-regular);
+  background-color: var(--clr--bg-body);
+  line-height: 1.6;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  margin: 3rem;
+  text-align: center;
+}
+
+.header-heading {
+  font-size: 2.25rem;
+  font-weight: var(--fw-light);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.header-heading span {
+  color: var(--clr--heading-accent);
+  display: block;
+  font-weight: var(--fw-semibold);
+}
+
+.header-paragraph {
+  max-width: 58ch;
+}
