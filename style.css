@@ -84,7 +84,8 @@ h6 {
 
   /* Font Sizes */
   --fs--main: 0.9375rem;
-
+  --fs-heading-min: 1.5rem;
+  --fs-heading-max: 2.25;
   /* ------------------------ */
 
   /* Font Families */
