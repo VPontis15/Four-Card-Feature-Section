@@ -113,17 +113,19 @@ body {
   text-align: center;
 }
 
-.header-heading {
-  font-size: clamp(var(--fs-heading-min), 5vw, var(--fs-heading-max));
-  font-weight: var(--fw-light);
-}
-
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
+  margin-top: 3rem;
+}
+
+.header-heading {
+  font-size: clamp(var(--fs-heading-min), 5vw, var(--fs-heading-max));
+  font-weight: var(--fw-light);
+  line-height: 1.4;
 }
 
 .header-heading span {
@@ -137,6 +139,7 @@ header {
 }
 
 .cards-container {
+  padding: 4em;
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
@@ -146,7 +149,6 @@ header {
   margin-bottom: 1rem;
   text-align: left;
   row-gap: 1rem;
-  margin-top: 4rem;
   grid-template-areas:
     ". builder ."
     "supervisor builder calculator"
@@ -158,7 +160,6 @@ header {
 
 .card {
   display: grid;
-
   gap: 1rem;
   box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--clr--heading-accent);
 }
@@ -190,19 +191,16 @@ header {
 
 .calculator {
   border-top: 5px outset var(--clr--primary-blue);
-
   grid-area: calculator;
 }
 
 .karma {
   border-top: 5px outset var(--clr--primary-orange);
-
   grid-area: karma;
 }
 
 .supervisor {
   border-top: 5px outset var(--clr--primary-cyan);
-
   grid-area: supervisor;
 }
 /* 849px*/
@@ -218,6 +216,8 @@ header {
       "karma"
       "calculator";
     row-gap: 2rem;
+    padding: 0;
+    margin-top: 5rem;
   }
 }
 
