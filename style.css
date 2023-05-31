@@ -159,7 +159,7 @@ header {
   display: grid;
 
   gap: 1rem;
-  box-shadow: 0 10px 30px -15px var(--clr--heading-accent);
+  box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--clr--heading-accent);
 }
 
 .wrapper {
@@ -204,8 +204,8 @@ header {
 
   grid-area: supervisor;
 }
-
-@media (max-width: 849px) {
+/* 849px*/
+@media (max-width: 53.0625em) {
   .container {
     margin: 1.75rem;
   }
@@ -220,7 +220,8 @@ header {
   }
 }
 
-@media (max-width: 1250px) and (min-width: 850px) {
+/* 850px */
+@media (max-width: 78.125em) and (min-width: 53.125em) {
   .cards-container {
     grid-template-areas:
       "supervisor builder"
