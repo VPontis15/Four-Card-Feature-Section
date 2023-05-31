@@ -161,7 +161,7 @@ header {
 .card {
   display: grid;
   gap: 1rem;
-  box-shadow: 0 0.625rem 1.875rem -0.9375rem var(--clr--heading-accent);
+  box-shadow: 0 0.625rem 1.5625rem -0.9375rem var(--clr--heading-accent);
 }
 
 .wrapper {
