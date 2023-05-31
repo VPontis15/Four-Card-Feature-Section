@@ -228,3 +228,9 @@ header {
       "calculator karma";
   }
 }
+
+@media (max-width: 374px) {
+  .container {
+    margin: 0;
+  }
+}
